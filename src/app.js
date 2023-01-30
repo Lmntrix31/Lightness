@@ -1,5 +1,5 @@
-modules / utils.js;
-import { generatePalette } from "./modules/utils";
+// modules/utils.js
+import { generatePalette } from "./modules/utils.js";
 import * as convert from "color-convert";
 export const generatePalette = (hex) => {
   const colors = [];
