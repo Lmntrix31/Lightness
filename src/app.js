@@ -1,7 +1,7 @@
 // modules/utils.js
 console.log("Hello World!");
-import { generatePalette, isHexColor } from "./modules/utils.js";
 import { Color } from "./modules/Color";
+import { isHexColor, generatePalette } from "./modules/utils.js";
 
 const formElement = document.querySelector("form");
 const handleForm = (e) => {
