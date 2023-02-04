@@ -1,4 +1,4 @@
-import * as convert from "color-convert";
+import * as convert from "../../node_modules/color-convert";
 export const generatePalette = (hex) => {
   const colors = [];
 
